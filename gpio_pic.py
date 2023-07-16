@@ -1,3 +1,6 @@
+'''
+This program takes pictures on the raspberry pi every time the GPIO is triggered.
+'''
 from picamera2 import Picamera2
 import RPi.GPIO as GPIO
 from time import sleep
